@@ -1,0 +1,366 @@
+<!DOCTYPE html>
+<html lang="en" class="h-100">
+
+<head>
+    <meta charset="UTF-8" />
+    <title>Custom Smart Blinds</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1,maximum-scale=5,user-scalable=1">
+    <meta name="description" content="" />
+    <meta name="keywords" content="Custom Smart Blinds" />
+    <meta name="Abstract" content="Order high quality blinds, custom blind">
+    <meta name="revisit-after" content="7 days">
+    <meta name="Distribution" content="Global">
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:ital,wght@0,200..800;1,200..800&display=swap');
+    </style>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+        <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css" />
+        <link rel="stylesheet" type="text/css"
+            href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick-theme.css" />
+        <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+        <script src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+    <link rel="stylesheet" href="./responsive.css">
+    <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" href="./cart.css">
+</head>
+
+<body class="dv-computer">
+    <header>
+    <div class="topnav-bar py-1 text-white fs-13">
+    <div class="container-fluid">
+    <div class="row align-items-center">
+    <div class="col-lg-12 col-md-9 col-sm-12 text-center nav-heading ">
+    <p class="mb-0 d-block d-sm-none text-white ">10% Off Use Code REPEAT10</p>
+    <p class="mb-0 d-none d-sm-block text-white ">10% Off Use Code REPEAT10 | FREE Shipping Orders $50+ | 2 Day Delivery Available | Ships In 24 Hours</p>
+    </div>
+    </div>
+    </div>
+    </div>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light topnav-bar">
+    <div class="container">
+    <div class="col-md-5">
+    <a class="navbar-brand" href="http://www.wblinds.local/">
+    <img src="./images/logo.jpeg">
+    </a>
+    </div>
+    <div class="col-md-7 text-center">
+    <div class="collapse navbar-collapse" id="navbarNav">
+    <ul class="navbar-nav ml-auto ">
+    <div class="global-text call-sec text-decoration-none p-2">
+    <h5 class="header-text phone-number">
+    1-999-999-9999
+    <p
+    style="font-size: 12px; text-align: center; margin: 3px 40px 0px 0px;">
+    Available 24/7
+    </p>
+    </h5>
+    <span class="acsb-sr-only d-none" data-acsb-sr-only="true"
+    data-acsb-force-visible="true" data-acsb-sr-only-position="after"
+    data-acsb-hidden="false"> - Click to Call</span>
+    </div>
+    <li class="nav-item">
+    <a class="nav-link chat-sec " href="#">
+    <!-- <i class="fas fa-comments"></i> -->
+    <img src="./images/live-chat.png" class="w-18">
+    <h5 class="header-text left-brdr"> Live Chat</h5>
+    </a>
+    </li>
+    <li class="nav-item p-3 pt-0 pb-0">
+    <a class="nav-link acct-sec " href="/dashboard">
+    <img src="./images/my-account.png" class="w-18">
+    <h5 class="header-text left-brdr"> My Account</h5>
+    </a>
+    </li>
+    <li class="nav-item ">
+    <a class="nav-link order-sec " href="/track-order">
+    <img src="./images/track.png" class="w-18">
+    <h5 class="header-text left-brdr">Track Order</h5>
+    </a>
+    </li>
+    <li class="nav-item p-3 pt-0 pb-0">
+    <a class="nav-link repeat-sec " href="#">
+    <img src="./images/repeat-order.png" class="w-18">
+    <h5 class="header-text left-brdr"> Repeat Order</h5>
+    </a>
+    </li>
+    <li class="nav-item">
+    <a class="nav-link cart-sec position-relative" href="/cart">
+    <!-- <i class="fas fa-redo-alt"></i> -->
+    <img src="./images/cart.png" class="w-18">
+    <h5 class="header-text left-brdr">Cart</h5>
+    <div class="cart-value" id="js-cart-count" aria-label="Cart Product Count"></div>
+    </a>
+    </li>
+    </ul>
+    </div>
+    </div>
+    </div>
+    </nav>
+    <div class="main-nav" id="js-menu-con">
+    <div class="container">
+    <nav class="navbar navbar-expand-lg p-0" role="navigation">
+    <div class="collapse navbar-collapse " id="navbarNavDropdown">
+    <ul class="navbar-nav">
+    <li class="nav-item megamenu-main" aria-haspopup="true">
+    <a href="/products/testd" class="nav-link megamenu-link" title="All Blinds">All Blinds</a>
+    </li>
+    <li class="nav-item megamenu-main" aria-haspopup="true">
+    <a href="/category/custom-blinds" class="nav-link megamenu-link" title="Blinds">Blinds</a>
+    </li>
+    <li class="nav-item megamenu-main" aria-haspopup="true">
+    <a href="/category/custom-shades" class="nav-link megamenu-link" title="Shades">Shades</a>
+    </li>
+    <li class="nav-item megamenu-main" aria-haspopup="true">
+    <a href="/#" class="nav-link megamenu-link" title="Shutters">Shutters</a>
+    </li>
+    <li class="nav-item megamenu-main" aria-haspopup="true">
+    <a href="/category/custom-motorized" class="nav-link megamenu-link" title="Motorized">Motorized</a>
+    </li>
+    <li class="nav-item megamenu-main" aria-haspopup="true">
+    <a href="/custom-inspiration" class="nav-link megamenu-link" title="Inspiration">Inspiration</a>
+    </li>
+    <li class="nav-item megamenu-main" aria-haspopup="true">
+    <a href="/sale" class="nav-link megamenu-link" title="Sale">Sale</a>
+    </li>
+    <li class="nav-item megamenu-main-search" aria-haspopup="true">
+    <form action="/search">
+    <input type="search" name="keyword" placeholder="Search Product" />
+    </form>
+    </li>
+    </ul>
+    </div>
+    </nav>
+    </div>
+    </div>
+    </header> <div class="layout_main_section">
+    <section class="fluid pt-60">
+    <div>
+    <div class="crt-chkout-cntnt-main">
+    <div class="container">
+    <a href="http://www.wblinds.local/" title="Back to shopping">
+    <span class="back mb-20">
+    <svg width="6" height="12" viewBox="0 0 6 12" fill="none" xmlns="http://www.w3.org/2000/svg">
+    <path d="M5.08333 10.3335L0.750001 6.00016L5.08334 1.66683" stroke="#091D4F" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+    </svg>
+    Back to shopping
+    </span>
+    </a>
+    <!-- Product Cart List -->
+    <h1 class="fs-32 fw-bold lh-38 color-text-dark mb-50">Your cart</h1>
+    <!-- For desktop -->
+    <div class="crt-prd-row crt-hide-on-lrg">
+    <div class="crt-prd-list txt-row">
+    <div class="crt-prd-itm crt-prd-img">
+    <h6>Image</h6>
+    </div>
+    <div class="crt-prd-itm crt-prd-detail">
+    <h6>Details</h6>
+    </div>
+    <div class="crt-prd-itm crt-prd-Quantity">
+    <h6>Quantity</h6>
+    </div>
+    <div class="crt-prd-itm crt-prd-prc">
+    <h6>Price</h6>
+    </div>
+    </div>
+    <div class="crt-prd-row crt-hide-on-lrg">
+    <div class="row">
+    <div class="crt-prd-list w-100">
+    <div class="crt-prd-itm crt-prd-img bg-light-gray d-flex">
+    <img src="./images/fabric_wraped_valance.webp" alt="" class="img-box-75 m-auto">
+    </div>
+    <div class="crt-prd-itm crt-prd-detail">
+    <div class="crt-prd-title">
+    <span>blind</span>
+    Custom Giant Balloon
+    </div>
+    <div class="dropdown crt-dtl-drpdwn w-100">
+    </div>
+    </div>
+    <div class="crt-prd-itm crt-prd-Quantity">
+    <h5 class="fs-16 color-text-dark lh-25 fw-400">1</h5>
+    </div>
+    <div class="crt-prd-itm crt-prd-prc">
+    <div class="prd-prc-flex">
+    <h5 class="fs-16 color-text-dark lh-25 fw-400">$ 8.00</h5>
+    </div>
+    </div>
+    <div class="crt-prd-list p-2">
+    <a class="js-rm-cart action" href="javascript:void(0)" refp="blind" data-smp="" ref=0><svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+    <g clip-path="url(#clip0_411_1560)">
+    <path d="M7.25 8V16.75C7.25 17.8546 8.14543 18.75 9.25 18.75H14.75C15.8546 18.75 16.75 17.8546 16.75 16.75V8M5.25 8H18.75" stroke="#091D4F" stroke-width="1.5" stroke-linecap="round"/>
+    <path d="M9 5.25H15" stroke="#091D4F" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+    <path d="M10.5 11.5V15.25" stroke="#091D4F" stroke-width="1.5" stroke-linecap="round"/>
+    <path d="M13.5 11.5V15.25" stroke="#091D4F" stroke-width="1.5" stroke-linecap="round"/>
+    </g>
+    <defs>
+    <clipPath id="clip0_411_1560">
+    <rect width="24" height="24" fill="white"/>
+    </clipPath>
+    </defs>
+    </svg> </a>
+    </div>
+    </div>
+    <div class="crt-shipping-dtl">
+    <h3>Mount:<span>Inside Mount</span></h3>
+    <h3>Width:<span>16"</span></h3>
+    <h3>Width Eighths :<span>1/4</span></h3>
+    <h3>Height:<span>8"</span></h3>
+    <h3>Height Eighths:<span>3/4</span></h3>
+    
+    <h3>Lift Control:<span>Cordless</span></h3>
+    <h3>Valance:<span>Circle Valance with Fabric Insert</span></h3>
+    <h3>Fibric Colors:<span>Blind Blue Color</span></h3>
+    <h3>Quantity:<span>1</span></h3>
+    
+    </div>
+    </div>
+    </div>
+    </div> <!-- For desktop end -->
+    <!-- Product Cart List End-->
+    <div class="container">
+    <div class="sticky-box">
+    <!-- Cart Product Summary -->
+    <div class="crt-smry-bx row">
+    <div class="col-md-6">
+    <div class="crt-coupon-code">
+    <div class="crt-coupon-code-form">
+    <!--commented code for Coupon code input -->
+    <input type="text" placeholder="Coupon code" id="js-coupon-code" />
+    <button class="default-btn" type="button" id="js-add-coupon">
+    <svg width="26" height="26" viewBox="0 0 26 26" fill="none" xmlns="http://www.w3.org/2000/svg">
+    <path d="M11.9167 8.66699L16.25 13.0003L11.9167 17.3337" stroke="white" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+    </svg>
+    </button>
+    <div role="status" id="js-add-loading" class="spinner-border text-light d-none"><span class="sr-only"></span></div>
+    <!-- commented code for Coupon code input End-->
+    </div>
+    </div>
+    </div>
+    <div class="col-md-6">
+    <h3>Summary</h3>
+    <div class="crt-smry-list">
+    <div class="crt-smry-list-itm">
+    <span>Subtotal</span>
+    $ 8.00
+    </div>
+    <div class="crt-smry-list-itm">
+    <span>Shipping</span>
+    $ 0.00
+    </div>
+    </div>
+    <div class="smry-total">
+    <span>Total</span>
+    $ 8.00
+    </div>
+    <div class="text-center position-relativea">
+    <a href="http://www.wblinds.local/checkout?pcart=4376f1beed2ae273df723b58cf234e9e" class="default-btn large w-auto" type="button" title="Proceed to checkout">Proceed to checkout</a>
+    </div>
+    </div>
+    </div>
+    </div>
+    <!-- Cart Product Summary End-->
+    </div>
+    <div class="container">
+    </div>
+    <!-- Discount Meter -->
+    <!-- Discount Meter End-->
+    </div>
+    
+    </div>
+    </div>
+    </section>
+    <section>
+    <div class="container mt-5 mb-5">
+    <div class="box-heading mb-4">
+    <h3 class="fw-semibold mb-2">Blinds Category</h3>
+    <span>Discover a wide range of premium blinds that combine style and functionality, perfect for every space.</span>
+    </div>
+    <div class="row">
+    <div class="col-md-3 col-sm-6 mb-4">
+    <div class="category-card">
+    <a href="http://www.wblinds.local/category/custom-blinds" title="Custom Blinds">
+    <img src="./images/category.png" alt="Custom Blinds">
+    <div class="category-title">Custom Blinds</div>
+    </a>
+    </div>
+    </div>
+    <div class="col-md-3 col-sm-6 mb-4">
+    <div class="category-card">
+    <a href="http://www.wblinds.local/category/custom-shades" title="Custom Shades">
+    <img src="./images/category.png" alt="Custom Shades">
+    <div class="category-title">Custom Shades</div>
+    </a>
+    </div>
+    </div>
+    <div class="col-md-3 col-sm-6 mb-4">
+    <div class="category-card">
+    <a href="http://www.wblinds.local/category/custom-motorized" title="Custom Motorized">
+    <img src="./images/category.png" alt="Custom Motorized">
+    <div class="category-title">Custom Motorized</div>
+    </a>
+    </div>
+    </div>
+    <div class="col-md-3 col-sm-6 mb-4">
+    <div class="category-card">
+    <a href="http://www.wblinds.local/category/custom-shutters" title="Custom Shutters">
+    <img src="./images/category.png" alt="Custom Shutters">
+    <div class="category-title">Custom Shutters</div>
+    </a>
+    </div>
+    </div>
+    </div> </div>
+    </section>
+    
+    </div>
+    <section>
+    <footer class="footer">
+    <div class="container">
+    <div class="row">
+    <!-- First Column: Logo and Information -->
+    <div class="col-md-3 col-sm-6 mb-4">
+    <img src="./images/logo.jpeg" alt="Logo" class="footer-logo">
+    <p>123 Street Name<br>City, State, ZIP</p>
+    <p>Email: info@example.com</p>
+    <p>Phone: +123-456-7890</p>
+    </div>
+    <!-- Second Column: About Us -->
+    <div class="col-md-3 col-sm-6 mb-4">
+    <h5>About Us</h5>
+    <ul class="list-unstyled">
+    <li><a href="/about-us">About Us</a></li>
+    <li><a href="/contact-us">Contact Us</a></li>
+    </ul>
+    </div>
+    <!-- Third Column: Services -->
+    <div class="col-md-3 col-sm-6 mb-4">
+    <h5>Services</h5>
+    <ul class="list-unstyled">
+    <li><a href="/track-order">Track Order</a></li>
+    <li><a href="/login">Account</a></li>
+    </ul>
+    </div>
+    <!-- Fourth Column: Quick Links -->
+    <div class="col-md-3 col-sm-6 mb-4">
+    <h5>Quick Links</h5>
+    <ul class="list-unstyled">
+    <li><a href="/faq">FAQs</a></li>
+    <li><a href="/terms-and-conditions">Terms of Service</a></li>
+    <li><a href="/privacy-policy">Privacy Policy</a></li>
+    </ul>
+    </div>
+    </div>
+    </div>
+    </footer>
+    </section>
+
+    <script defer type="text/javascript" src="http://www.wblinds.local/assets/js/jquery-3.6.0.min.js"></script>
+    <script defer type="text/javascript" src="http://www.wblinds.local/assets/js/main.js"></script>
+
+    </body>
+    </html>
+    
